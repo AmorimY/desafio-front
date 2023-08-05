@@ -153,7 +153,7 @@ export function Footer() {
           </svg>
         </a>
       </div>
-      <p>Desafio Front-end Lacrei</p>
+      <p>Desafio Front-end Lacrei - Desenvolvido por Rafael Amorim</p>
     </Foote>
   );
 }
