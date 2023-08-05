@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 export const Foote = styled.footer`
 @media (max-width: 520px){
-    margin: 0px 0rem;
+    margin: 0px 1rem;
     padding-top: 1rem;
     nav{
         flex-direction: column;
