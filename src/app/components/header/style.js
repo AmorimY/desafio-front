@@ -12,6 +12,20 @@ export const Head = styled.header `
     justify-content: space-between;
     background-color: rgb(238, 238, 238);
     font-weight: bold;
+
+    @media (max-width: 520px){
+        padding: 0.5rem 1rem;
+        flex-direction: column;
+        nav{
+            gap: 1.5rem
+        }
+    };
+    @media (max-width: 1040px){
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 2rem 2rem 0px;
+    }
 }
     a{
         text-decoration: none;

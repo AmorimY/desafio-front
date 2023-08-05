@@ -8,9 +8,26 @@ export const Principal = styled.div`
     -webkit-box-pack: justify;
     justify-content: space-between;
     align-items: flex-start;
+    @media (max-width: 520px){
+        padding: 1rem 1rem 0px;
+        h2{
+            font-size: 1.8rem;
+        }
+
+    }
+    @media (max-width: 1040px){
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 2rem 2rem 0px;
+        h2{
+            font-size:2rem
+        }
+    }
     div{
        max-width: 540px
     }
+
     p {
         line-height: 2rem;
         margin-top: 2rem;
@@ -39,5 +56,6 @@ export const Bigger = styled.h2`
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+
 
 `

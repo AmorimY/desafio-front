@@ -3,6 +3,14 @@
 import styled from "styled-components"
 
 export const Foote = styled.footer`
+@media (max-width: 520px){
+    margin: 0px 0rem;
+    padding-top: 1rem;
+    nav{
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+}
     margin: 0px 4rem;
     border-top: 1px solid rgb(176, 224, 211);
     display: flex;
@@ -22,11 +30,8 @@ export const Foote = styled.footer`
         }
     };
     nav{
-        .active{
-            font-weight:700
-        }
         display: flex;
-        gap: 2.5rem;
+        
     };
     a{
         color: rgb(31, 31, 31);
@@ -39,8 +44,6 @@ export const Foote = styled.footer`
     }
 `;
 
-export const Nav = styled.nav`
-    color:blue
-`;
+
 
 

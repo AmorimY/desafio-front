@@ -1,4 +1,11 @@
 
+@media (max-width: 520px){
+    .buttons_container{
+        flex-direction: column;
+    gap: 1rem;
+    }
+    
+}
 
 .buttons_container{
     display: flex;
