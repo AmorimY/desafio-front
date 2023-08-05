@@ -30,7 +30,7 @@ export function Middle({ imagem, titulo,paragrafo,exibirBotoes = false, exibirPa
                    <p className="description">Uma plataforma segura e acolhedora para a comunidade LGBTQIAPN+</p>
                    <div className={styles.buttons_container}>
                     <a href="/pessoa-usuaria"className={styles.user_btn}>Pessoa Usuária</a>
-                    <a href="/profissional" className={styles.pro_btn}>Profssional</a>
+                    <a href="/profissional" className={styles.pro_btn}>Profissional</a>
                 </div>
                      </>
                 )}
