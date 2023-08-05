@@ -1,9 +1,8 @@
 /* @jsxImportSource styled-components */
-'use client'
-import styled from "styled-components"
+"use client";
+import styled from "styled-components";
 
-
-export const Head = styled.header `
+export const Head = styled.header`
     padding: 0.5rem 4rem;
     -webkit-box-align: center;
     align-items: center;
@@ -49,20 +48,18 @@ export const Head = styled.header `
     }
 `;
 
-export const Nav = styled.nav`
-`
+export const Nav = styled.nav``;
 
 export const StyledLogo = styled.a`
-color: #018762;
-transition: all 0.2s ease 0s;
-font-size:2em;
-line-height: normal;
-flex-shrink: 0;
-text-decoration: none;`;
+  color: #018762;
+  transition: all 0.2s ease 0s;
+  font-size: 2em;
+  line-height: normal;
+  flex-shrink: 0;
+  text-decoration: none;
+`;
 
 export const StyledLinks = styled.a`
-color: #018762;
-text-decoration:none;
-`
-
-
+  color: #018762;
+  text-decoration: none;
+`;

@@ -1,19 +1,28 @@
-'use client'
+"use client";
 import { usePathname } from "next/navigation";
-import { Foote,  } from "./style.js";
+import { Foote } from "./style.js";
 
 export function Footer() {
   const pathName = usePathname();
-  const isHomePage = pathName === '/';
-  const isUserPage = pathName === '/pessoa-usuaria';
-  const isProPage = pathName == '/profissional';
+  const isHomePage = pathName === "/";
+  const isUserPage = pathName === "/pessoa-usuaria";
+  const isProPage = pathName == "/profissional";
 
   return (
     <Foote>
       <nav>
-        <a href="/" style={{ fontWeight: isHomePage ? '700' : 0 }}>Home</a>
-        <a href="/pessoa-usuaria" style={{ fontWeight: isUserPage ? '700' : 0 }}>Pessoa Usuária</a>
-        <a href="/profissional" style={{ fontWeight: isProPage ? '700' : 0 }}>Profissional</a>
+        <a href="/" style={{ fontWeight: isHomePage ? "700" : 0 }}>
+          Home
+        </a>
+        <a
+          href="/pessoa-usuaria"
+          style={{ fontWeight: isUserPage ? "700" : 0 }}
+        >
+          Pessoa Usuária
+        </a>
+        <a href="/profissional" style={{ fontWeight: isProPage ? "700" : 0 }}>
+          Profissional
+        </a>
       </nav>
       <div>
         <a target="_blank">
